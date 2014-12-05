@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peter</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="css/custom.css" rel="stylesheet">
+    
+    <style>
+        * { box-sizing: border-box; }
+        body, html { height: 100%; }
+        body {
+            font-family: Dosis;
+            font-size: 1.6em;
+        }
+        #mainNav {
+            display: inline;
+        }
+        #mainNav a {
+            margin-right: 2em;
+            text-transform: uppercase;
+        }
+        a { color: #16161d; }
+    </style>
+</head>
+<body>
+    
+    <div style="position: relative; height: 100%; border-bottom: solid 3px black;" id="topSlide">
+        
+        <div style="background: #0A76C5; height: 10px"></div>
+        <div style="background: #16161d; height: 5px"></div>
+        
+        <div style="position: absolute; top: 15px; left: 0; width: 100%; background: rgba(255, 255, 255, 0.6);">
+           <div style="padding: 60px 60px 10px 060px;">
+               <h1 style="margin: 0; padding: 0; display: inline; margin-right: 2em;">WALLFERRAR</h1>
+               <nav id="mainNav" class="pull-right" style="margin-top: 1em;">
+                   <a href='/business-optimization'>Business Optimization</a>
+                   <a href='/global-trading'>Global Trading</a>
+                   <a href='/start-ups'>Start Ups</a>
+                   <a href='/wfexchange'>WFExchange</a>
+                   <a href='/about-and-contact'>About &amp; Contact</a>
+               </nav>
+           </div>
+        </div>
+        
+        <div style="position: absolute; bottom: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.6);" id="flyout">
+            <div style="padding: 20px 60px 30px; overflow: hidden; position: relative;">
+               
+                <div style="width: 50%; float: left;" id="leftFlyoutContent">
+                </div>
+                
+                <div style="width: 50%; float: right; text-align: right; font-size: 1.5em;">
+                    <ul style="margin: 20px 0 0; padding-bottom: 0; list-style: none;">
+                        <li><a href="#" class="flyoutNav" data-template="accounting" data-bg="http://www.theworldsfinance.com/wp-content/uploads/2014/09/Business-People-Around-Computer.jpg">Accounting</a></li>
+                        <li><a href="#" class="flyoutNav" data-template="financial-consulting" data-bg="http://1.bp.blogspot.com/-X9O3auKA9s8/Toi0Z8fCGeI/AAAAAAAAA9A/1rU-u27jFbc/s1600/relationships.jpg">Financial Consulting</a></li>
+                        <li><a href="#" class="flyoutNav" data-template="banking" data-bg="http://salesarchitects.net/images2/speaking%20photo.jpg">Banking</a></li>
+                        <li><a href="#" class="flyoutNav" data-template="lorem-ipsum" data-bg="http://allison-taylor.com/wp-content/uploads/2012/10/iStock_000010592001Large.jpg">Lorem Ipsum</a></li>
+                        <li><a href="#" class="flyoutNav" data-template="se-kak-link" data-bg="http://blog.powerlinx.com/wp-content/uploads/2014/03/shaking-hands-picture.jpg">Še Kak Link</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        
+        <div style="position: absolute; bottom: -3px; left: 50%; cursor: pointer; margin-left: -100px; width: 100px; background: white; color: black; padding: .5em 2em; border-top-left-radius: 7px; border-top-right-radius: 7px;" id="moreScroller">
+            more
+        </div>
+        
+    </div>
+    
+    <div style="padding: 40px 60px;" id="mainContent">
+       
+        <div class="row" style="margin-bottom: 2em;">
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>Latest</strong>News</h3>
+                <ul id="latestNews">
+                    <li>aalala <span class="pull-right blue small">18th november</span></li>
+                    <li>jajajaj</li>
+                    <li class="expanded">Some more content yadda yadda</li>
+                    <li>kejejeeje</li>
+                    <li>kejejeeje</li>
+                    <li class="archive"><a href="#">Oktober</a> | <a href="#">Archive</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>Endorsments</strong></h3>
+                <div class="" style="overflow: hidden;">
+                    <img src="http://www.ms.kuki.tus.ac.jp/eng/outline/faculty/profile/img/onuma_img_staff.jpg" style="float: right; margin-left: 1em;">
+                    <div class="endorsmentHead">Intereuropa</div>
+                    <div class="endorsedBy">Dani Segedinar, CEO</div>
+                    <p>Blablablabla</p>
+                </div>
+                <div class="" style="overflow: hidden; margin-top: 10px;">
+                    <img src="http://www.ms.kuki.tus.ac.jp/eng/outline/faculty/profile/img/onuma_img_staff.jpg" style="float: left; margin-right: 1em;">
+                    <div class="endorsmentHead">Intereuropa</div>
+                    <div class="endorsedBy">Dani Segedinar, CEO</div>
+                    <p>Blablablabla</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>Contact</strong>Form</h3>
+                <form method="post">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="email" class="form-control" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control" style="height: 100px;" placeholder="Your message."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>Social</strong>Media</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem urna, bibendum sit amet massa vitae, semper iaculis nisl. Vestibulum elementum ornare risus, sed dignissim eros facilisis at. Aenean quis suscipit arcu. Donec blandit justo et interdum bibendum. Phasellus et ex eu libero egestas lobortis eget vitae dolor. Nunc nec bibendum urna. Nulla gravida dolor erat, at dapibus orci accumsan sit amet. Vestibulum sed ipsum finibus, rutrum odio egestas, finibus magna. Proin imperdiet nisl dui, ut porta ante scelerisque in. Quisque iaculis ex vitae interdum eleifend.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>Youtube</strong>Channel</h3>
+            </div>
+            <div class="col-md-4">
+                <h3 class="contentTitle"><strong>WF</strong>ExchangeAPP</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
